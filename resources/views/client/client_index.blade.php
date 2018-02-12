@@ -9,7 +9,8 @@
             <li class="li">5 minutes suffisent</li>
             <li class="li">Utilsation intuittive</li>
             <li class="li">Estimation immédiate</li>
-        </ul><a href="{{ route('step1') }}" class="cta1 w-button">COMMENCER</a>
+        </ul>
+        <a href="{{ route('step1',['id'=>$id]) }}" class="cta1 w-button">COMMENCER</a>
     </div>
 </div>
 @endsection

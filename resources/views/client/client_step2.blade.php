@@ -17,11 +17,11 @@
             <h1 class="centerh2">choisissez une forme de toiture</h1>
             <div class="photorow w-row">
                 <div class="photocol w-col w-col-4">
-                    <h3 class="centerh3">CARRé</h3><img src="{{ asset(env('')) }}design/images/forme-carre.png" class="photophoto"><a href="#" class="cta4 w-button">Choisir</a></div>
+                    <h3 class="centerh3">CARRé</h3><img src="{{ asset('design/images/forme-carre.png') }}" class="photophoto"><a href="#" class="cta4 w-button">Choisir</a></div>
                 <div class="photocol w-col w-col-4">
-                    <h3 class="centerh3">EN &quot;L&quot;</h3><img src="{{ asset(env('')) }}design/images/forme-l.png" class="photophoto off"><a href="#" class="cta4 off w-button">CHOISIR</a></div>
+                    <h3 class="centerh3">EN &quot;L&quot;</h3><img src="{{ asset('design/images/forme-l.png') }}" class="photophoto off"><a href="#" class="cta4 off w-button">CHOISIR</a></div>
                 <div class="photocol w-col w-col-4">
-                    <h3 class="centerh3">EN &#x27;U&#x27;</h3><img src="{{ asset(env('')) }}design/images/forme-u.png" class="photophoto off"><a href="#" class="cta4 off w-button">CHOISIR</a></div>
+                    <h3 class="centerh3">EN &#x27;U&#x27;</h3><img src="{{ asset('design/images/forme-u.png') }}" class="photophoto off"><a href="#" class="cta4 off w-button">CHOISIR</a></div>
             </div>
         </div>
     </div>

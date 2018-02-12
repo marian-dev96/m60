@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->integer('mobile');
             $table->string('city');
             $table->boolean('get_news');
-            $table->string('email')->unique();
+            $table->string('email', 128)->unique();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

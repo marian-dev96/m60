@@ -11,11 +11,8 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
 
-Route::get('/', 'Client\ClientController@index');
-Route::get('/step1', 'Client\ClientController@step1')->name('step1');
-Route::get('/step2', 'Client\ClientController@step1')->name('step2');
+Route::get('/',['uses'=>'Client\ClientController@index','as'=>'home']);
+Route::get('/step1/{id?}',['uses'=>'Client\ClientController@step1','as'=>'step1']);
+Route::get('/step2/{id?}',['uses'=>'Client\ClientController@step2','as'=>'step2']);
 
