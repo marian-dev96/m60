@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', 'Client\ClientController@index');
+Route::get('/step1', 'Client\ClientController@step1')->name('step1');
+Route::get('/step2', 'Client\ClientController@step1')->name('step2');
+
